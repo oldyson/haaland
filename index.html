@@ -19,18 +19,32 @@
             margin: 0 auto;
             padding: 20px;
         }
-        header {
+        nav {
             background-color: #197829; /* Green color specified by the variable */
-            padding: 10px 0; /* Add padding to the top and bottom of the header */
+            padding: 10px 0; /* Add padding to the top and bottom of the navbar */
+            text-align: center; /* Align navbar items to the center */
         }
-        /* Style for the header text */
-        header h1 {
-            margin: 0; /* Remove default margin */
-            padding-left: 20px; /* Add padding to the left of the header text */
+        /* Style for the navbar links */
+        nav a {
+            color: white; /* Set link color to white */
+            text-decoration: none; /* Remove underline from links */
+            padding: 10px 20px; /* Add padding to the left and right of the links */
+            margin: 0 10px; /* Add margin between links */
+            border-radius: 5px; /* Add border radius to the links */
+        }
+        /* Style for the active link */
+        nav a.active {
+            background-color: #13531e; /* Darker green color for active link */
         }
     </style>
 </head>
 <body>
+    <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
     <div class="container">
         <!-- Your content goes here -->
         <h1>Welcome to My Website</h1>
