@@ -1,11 +1,11 @@
 /* Your CSS styles go here */
 body {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: black; /* Set background color to black */
     color: white; /* Set text color to white */
-}
+}  
 /* Example CSS style */
 .container {
     max-width: 800px;
