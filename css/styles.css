@@ -19,9 +19,42 @@ body {
 .column {
     flex: 1; /* Make the columns flexible */
     height: 100%; /* Ensure columns take up full height of container */
+    position: relative;
     background-color: #161616; /* Background color of the columns */
     border-right: 1px solid black; /* Add border between columns */
 }
+.column img {
+    width: 100%; /* Ensure image doesn't exceed container width */
+    height: 100%; /* Ensure image doesn't exceed container height */
+    display: block; /* Remove extra space below image */
+    object-fit: cover;
+    margin: 0 auto; /* Center image horizontally */
+}
+.column .text {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 1;
+}
+.with-circle {
+    position: relative;
+    overflow: hidden; /* Hide overflowing parts */
+}
+.circle {
+    position: absolute;
+    top: 80%; /* Position the circle vertically centered */
+    right: -100%; /* Position the circle at the left edge */
+    transform: translate(-100%, -100%); /* Center the circle horizontally */
+    width: 800px; /* Set the width of the circle */
+    height: 800px; /* Set the height of the circle */
+    border-radius: 50%; /* Make the circle shape */
+    background-color: rgb(20, 18, 18); /* Set the color of the circle */
+}
+/* Style for the image slider */
 nav {
     background-color: #006054; /* Green color specified by the variable */
     padding: 30px 20px; /* Add padding to the top and bottom of the navbar */
@@ -44,6 +77,8 @@ nav a {
     text-decoration: none; /* Remove underline from links */
     padding: 10px 20px; /* Add padding to the left and right of the links */
     margin-left: 20px; /* Add left margin to create space between links */
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 2);
+    font-size: 20px;
 }
 /* Style for the active link */
 nav a.active {

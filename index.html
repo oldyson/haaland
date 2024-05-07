@@ -6,6 +6,24 @@
     <title>Hitam Manis Website</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
 </head>
 <body>
     <nav>
@@ -20,8 +38,14 @@
         </div>
     </nav>
     <div class="container">
-        <div class="column"></div> <!-- First column -->
-        <div class="column"></div> <!-- Second column -->
+        <div class="column with-circle">
+            <div class="text">fuck<br>inter</div>
+            <div class="circle"></div>
+        </div> <!-- First column -->
+        <div class="column">
+            <img src="/images/green_coffee_cup.jpg" alt="GreenCup">
+        </div> <!-- Second column -->
     </div>
+    
 </body>
 </html>
