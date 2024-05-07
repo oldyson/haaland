@@ -4,13 +4,24 @@ body {
     margin: 0;
     padding: 0;
     background-color: black; /* Set background color to black */
-    color: white; /* Set text color to white */
+    color: rgb(0, 0, 0); /* Set text color to white */
+    justify-content: center;
+    align-items: center;
 }  
 /* Example CSS style */
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    display: flex;
+    width: 100%; /* Set width of the white box */
+    max-width: 1200px; /* Set maximum width of the container */
+    height: 600px; /* Set height of the white box */
+    background-color: rgb(22, 22, 22); /* Background color of the white box */
+    /*margin: 50px auto 0; /* Set margin-top to 50px for spacing */
+}
+.column {
+    flex: 1; /* Make the columns flexible */
+    height: 100%; /* Ensure columns take up full height of container */
+    background-color: #161616; /* Background color of the columns */
+    border-right: 1px solid black; /* Add border between columns */
 }
 nav {
     background-color: #006054; /* Green color specified by the variable */
@@ -41,5 +52,6 @@ nav a.active {
 }
 /* Style for the logo */
 nav img.logo {
+    margin-left: 50px;
     height: 150px; /* Set height of the logo */
 }
