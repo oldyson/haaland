@@ -37,7 +37,7 @@ body {
     transform: translate(-50%, -50%);
     font-size: 100px;
     color: white;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Roboto',sans-serif;
     z-index: 1;
 }
 .with-circle {
