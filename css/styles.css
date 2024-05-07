@@ -14,17 +14,26 @@ body {
 }
 nav {
     background-color: #006054; /* Green color specified by the variable */
-    padding: 130px 0px; /* Add padding to the top and bottom of the navbar */
-    justify-content: flex-end; /* Align navbar items to the right */
+    padding: 30px 20px; /* Add padding to the top and bottom of the navbar */
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute items evenly */
     align-items: center; /* Vertically center navbar items */
+}
+.nav-left {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+}
+
+.nav-right {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
 }
 /* Style for the navbar links */
 nav a {
     color: white; /* Set link color to white */
     text-decoration: none; /* Remove underline from links */
     padding: 10px 20px; /* Add padding to the left and right of the links */
-    margin: 0 10px; /* Add margin between links */
-    border-radius: 5px; /* Add border radius to the links */
+    margin-left: 20px; /* Add left margin to create space between links */
 }
 /* Style for the active link */
 nav a.active {
@@ -32,5 +41,5 @@ nav a.active {
 }
 /* Style for the logo */
 nav img.logo {
-    height: 250px; /* Set height of the logo */
+    height: 150px; /* Set height of the logo */
 }
