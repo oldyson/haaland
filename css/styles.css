@@ -29,7 +29,12 @@ nav a {
 nav a.active {
     background-color: #12463d; /* Darker green color for active link */
 }
-
+nav a.plus-jakarta-sans-menu {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
 /* Style for the logo */
 nav img.logo {
     position: absolute; /* Position absolute to place the logo */
