@@ -20,6 +20,9 @@ nav {
 /* Style for the navbar links */
 nav a {
     font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
     color: white; /* Set link color to white */
     text-decoration: none; /* Remove underline from links */
     padding: 10px 20px; /* Add padding to the left and right of the links */
