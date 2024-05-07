@@ -15,7 +15,9 @@ body {
 nav {
     background-color: #006054; /* Green color specified by the variable */
     padding: 130px 0px; /* Add padding to the top and bottom of the navbar */
-    text-align: center; /* Align navbar items to the center */
+    display: flex;
+    justify-content: flex-end; /* Align navbar items to the right */
+    align-items: center; /* Vertically center navbar items */
 }
 /* Style for the navbar links */
 nav a {
@@ -31,8 +33,5 @@ nav a.active {
 }
 /* Style for the logo */
 nav img.logo {
-    position: absolute; /* Position absolute to place the logo */
-    top: 10px; /* Align logo 10px from the top */
-    left: 40px; /* Align logo 10px from the left */
     height: 250px; /* Set height of the logo */
 }
