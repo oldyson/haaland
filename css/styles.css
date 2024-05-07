@@ -12,7 +12,6 @@ body {
 .container {
     display: flex;
     width: 100%; /* Set width of the white box */
-    max-width: 1200px; /* Set maximum width of the container */
     height: 600px; /* Set height of the white box */
     background-color: rgb(22, 22, 22); /* Background color of the white box */
     /*margin: 50px auto 0; /* Set margin-top to 50px for spacing */
