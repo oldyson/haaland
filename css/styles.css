@@ -1,0 +1,39 @@
+/* Your CSS styles go here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+}
+/* Example CSS style */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav {
+    background-color: #006054; /* Green color specified by the variable */
+    padding: 130px 0px; /* Add padding to the top and bottom of the navbar */
+    text-align: center; /* Align navbar items to the center */
+}
+/* Style for the navbar links */
+nav a {
+    font-family: sans-serif;
+    color: white; /* Set link color to white */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding to the left and right of the links */
+    margin: 0 10px; /* Add margin between links */
+    border-radius: 5px; /* Add border radius to the links */
+}
+/* Style for the active link */
+nav a.active {
+    background-color: #12463d; /* Darker green color for active link */
+}
+/* Style for the logo */
+nav img.logo {
+    position: absolute; /* Position absolute to place the logo */
+    top: 10px; /* Align logo 10px from the top */
+    left: 40px; /* Align logo 10px from the left */
+    height: 250px; /* Set height of the logo */
+}
